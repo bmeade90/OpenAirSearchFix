@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "OpenAir Search Fix",
+  "version": "0.1.1",
+  "description": "This makes the timesheets project search field wider",
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://*.openair.com/*","https://openair.com/*"]
+  }]
+ 
+}
